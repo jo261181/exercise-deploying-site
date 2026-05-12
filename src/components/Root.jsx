@@ -9,8 +9,8 @@ export const Root = () => {
 
   useEffect(() => {
     Promise.all([
-      fetch("http://https://my-json-server.typicode.com/jo261181/exercise-deploying-site/events").then((res) => res.json()),
-      fetch("http://https://my-json-server.typicode.com/jo261181/exercise-deploying-site/categories").then((res) => res.json())
+      fetch("https://my-json-server.typicode.com/jo261181/exercise-deploying-site/events").then((res) => res.json()),
+      fetch("https://my-json-server.typicode.com/jo261181/exercise-deploying-site/categories").then((res) => res.json())
     ]).then(([events, categories]) => {
       setData({ events, categories });
     });
