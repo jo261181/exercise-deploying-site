@@ -18,7 +18,7 @@ export const Root = () => {
 
   if (!data) return <p>Loading…</p>;
 
-  return (
+  return (  
     <Box>
       
       <Navigation />
