@@ -111,7 +111,7 @@ export const EventsPage = () => {
               key={evt.id}
               w="100%"
               borderRadius="lg"
-              bg="whiteAlpha.800"
+              bg="red.50"
               alignItems="center"
               mb={5}
               cursor="pointer"
